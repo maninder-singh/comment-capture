@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Second Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/comment.css">
+</head>
+<body>
+<div id="navigation">
+    <ul class="nav nav-tabs">
+        <li role="presentation"><a href="first_page.html" title="First Page">First Page</a></li>
+        <li role="presentation"><a href="second_page.html" title="Second Page">Second Page</a></li>
+        <li role="presentation"><a href="home.html" title="Back to Home Page">Go to Home Page</a></li>
+    </ul>
+</div>
+<div id="content">
+    <div>
+        <h1>70th Session of the UN General Assembly</h1>
+    </div>
+    <div>
+        <div id="un_70th_session_id">
+            <img src="images/UnitedNations.Reuters1.jpg" alt="70th Session of UN" title="70th Session of UN"
+                 width="300" height="200">
+        </div>
+        <div id="un_70th_session_description">
+            <p>
+                The 70th anniversary of the United Nations is an opportunity to reflect – to look back on the UN’s history and
+                take stock of its enduring achievements. It is also an opportunity to spotlight where the UN – and the international
+                community as a whole – needs to redouble its efforts to meet current and future challenges across the three pillars
+                of its work: peace and security, development, and human rights.In the challenging times of increasing armed conflict,
+                climate change, economic crises and natural disasters across the world, we need to seize this historic opportunity to
+                re-strategise efforts and strengthen commitments, both political and financial for achieving an equal, poverty-free and
+                sustainable world.
+            </p>
+        </div>
+    </div>
+    <div id="buttons">
+        <button type="button">
+            Click Me!!
+        </button>
+        <button type="button" onclick="">
+            Click Me Again!!!!
+        </button>
+    </div>
+</div>
+<a href="#openModal" id="comment_mode_id">Comment Mode</a>
+<div id="openModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <div id="context_menu_click_event">
+            <div id="comment_mode_data_insertion_id" style="pointer-events: none;cursor: default;"></div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/comment.js"></script>
+</body>
+</html>

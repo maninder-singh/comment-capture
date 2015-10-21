@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/comment.css">
+    </head>
+    <body>
+        <div id="navigation">
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="first_page.html" title="First Page">First Page</a></li>
+                <li role="presentation"><a href="second_page.html" title="Second Page">Second Page</a></li>
+                <li role="presentation"><a href="home.html" title="Back to Home Page" style="pointer-events: none;cursor: default;">Go to Home Page</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div>
+                <h1>Political Map of the World</h1>
+            </div>
+            <div>
+                <div id="world_map_image_id">
+                    <img src="images/world-political-map-2000px.jpg" alt="World Political Map" title="World Political Map"
+                        width="300" height="200">
+                </div>
+                <div id="world_political_map_description">
+                    <p>
+                        The map above is a political map of the world centered on Europe and Africa.
+                        It shows the location of most of the world's countries and includes their names where space allows.
+                        Representing a round earth on a flat map requires some distortion of the geographic features no matter
+                        how the map is done. We have used a Mercator projection for this map because it is the projection most commonly used
+                        in schools. On this map, geographic boundaries that trend north-south appear as vertical lines, geographic boundaries
+                        that trend east-west appear as horizontal lines. This type of projection causes a minimum of country-shape distortion
+                        near the equator, a small amount of distortion at mid-latitudes, but extreme distortion near the poles. For that reason,
+                        the map does not extend to the north and south poles.
+                    </p>
+                </div>
+            </div>
+            <div id="buttons">
+                <button class="btn btn-default" type="button">
+                    Click Me!!
+                </button>
+                <button class="btn btn-default" type="button" onclick="">
+                    Click Me Again!!!!
+                </button>
+            </div>
+        </div>
+        <a href="#openModal" id="comment_mode_id">Comment Mode</a>
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div id="context_menu_click_event">
+                    <div id="comment_mode_data_insertion_id" style="pointer-events: none;cursor: default;"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/comment.js"></script>
+    </body>
+</html>
